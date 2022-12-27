@@ -29,7 +29,7 @@ struct MainView: View {
                     List {
                         ForEach(converters, id: \.id) { converter in
                             Text(converter.name)
-                                .foregroundColor(converter.hasCustomAccentColor ? decodeColor(inColor: converter.customAccentColor) : accentColor)
+                                .foregroundColor(converter.hasCustomAccentColor ? decodeColor(color: converter.customAccentColor) : accentColor)
                                 .font(.system(size: 20))
                         }
                         .onMove { indexSet, offset in
