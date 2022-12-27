@@ -11,7 +11,6 @@ struct LaunchView: View {
     @Binding var hasLaunchedBefore: Bool
     @State private var presentPurchaseSheet: Bool = false
     var body: some View {
-        //
         VStack {
             Text("Welcome To")
                 .foregroundColor(.white)
