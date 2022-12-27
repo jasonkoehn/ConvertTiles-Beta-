@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8700E5F32954D5E0000A5643 /* UnitsSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700E5F22954D5E0000A5643 /* UnitsSwitch.swift */; };
+		8700E5F52954D686000A5643 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700E5F42954D686000A5643 /* Functions.swift */; };
+		8700E5F92954D8B0000A5643 /* Structs&Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700E5F82954D8B0000A5643 /* Structs&Arrays.swift */; };
+		874B1E69295A015A00288CC2 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B1E68295A015A00288CC2 /* LaunchView.swift */; };
+		874B1E6B295A401700288CC2 /* AddATileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B1E6A295A401700288CC2 /* AddATileView.swift */; };
+		874B1E6D295A660200288CC2 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B1E6C295A660200288CC2 /* TileView.swift */; };
+		874B1E6F295A6DAB00288CC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B1E6E295A6DAB00288CC2 /* MainView.swift */; };
 		8779DCCE2947CFFD00F9AA6C /* ConvertTiles_Beta_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCCD2947CFFD00F9AA6C /* ConvertTiles_Beta_App.swift */; };
-		8779DCD02947CFFD00F9AA6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCCF2947CFFD00F9AA6C /* ContentView.swift */; };
 		8779DCD22947CFFE00F9AA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8779DCD12947CFFE00F9AA6C /* Assets.xcassets */; };
 		8779DCD62947CFFE00F9AA6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8779DCD52947CFFE00F9AA6C /* Preview Assets.xcassets */; };
 		8779DCE02947CFFE00F9AA6C /* ConvertTiles_Beta_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCDF2947CFFE00F9AA6C /* ConvertTiles_Beta_Tests.swift */; };
 		8779DCEA2947CFFE00F9AA6C /* ConvertTiles_Beta_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCE92947CFFE00F9AA6C /* ConvertTiles_Beta_UITests.swift */; };
 		8779DCEC2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCEB2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift */; };
+		87C0DA8E2956630700584EF5 /* InAppPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */; };
+		87C0DA902956695800584EF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0DA8F2956695800584EF5 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8700E5F22954D5E0000A5643 /* UnitsSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsSwitch.swift; sourceTree = "<group>"; };
+		8700E5F42954D686000A5643 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		8700E5F82954D8B0000A5643 /* Structs&Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structs&Arrays.swift"; sourceTree = "<group>"; };
+		874B1E68295A015A00288CC2 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		874B1E6A295A401700288CC2 /* AddATileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddATileView.swift; sourceTree = "<group>"; };
+		874B1E6C295A660200288CC2 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		874B1E6E295A6DAB00288CC2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8779DCCA2947CFFD00F9AA6C /* ConvertTiles(Beta).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvertTiles(Beta).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8779DCCD2947CFFD00F9AA6C /* ConvertTiles_Beta_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTiles_Beta_App.swift; sourceTree = "<group>"; };
-		8779DCCF2947CFFD00F9AA6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8779DCD12947CFFE00F9AA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8779DCD32947CFFE00F9AA6C /* ConvertTiles_Beta_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConvertTiles_Beta_.entitlements; sourceTree = "<group>"; };
 		8779DCD52947CFFE00F9AA6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +59,8 @@
 		8779DCE52947CFFE00F9AA6C /* ConvertTiles(Beta)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConvertTiles(Beta)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8779DCE92947CFFE00F9AA6C /* ConvertTiles_Beta_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTiles_Beta_UITests.swift; sourceTree = "<group>"; };
 		8779DCEB2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTiles_Beta_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseView.swift; sourceTree = "<group>"; };
+		87C0DA8F2956695800584EF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8700E5FA2954DEEA000A5643 /* Structs,Arrays,Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				8700E5F82954D8B0000A5643 /* Structs&Arrays.swift */,
+				8700E5F22954D5E0000A5643 /* UnitsSwitch.swift */,
+				8700E5F42954D686000A5643 /* Functions.swift */,
+			);
+			path = "Structs,Arrays,Funcs";
+			sourceTree = "<group>";
+		};
 		8779DCC12947CFFD00F9AA6C = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +122,13 @@
 			isa = PBXGroup;
 			children = (
 				8779DCCD2947CFFD00F9AA6C /* ConvertTiles_Beta_App.swift */,
-				8779DCCF2947CFFD00F9AA6C /* ContentView.swift */,
+				874B1E68295A015A00288CC2 /* LaunchView.swift */,
+				874B1E6E295A6DAB00288CC2 /* MainView.swift */,
+				874B1E6C295A660200288CC2 /* TileView.swift */,
+				874B1E6A295A401700288CC2 /* AddATileView.swift */,
+				87C0DA8F2956695800584EF5 /* SettingsView.swift */,
+				87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */,
+				8700E5FA2954DEEA000A5643 /* Structs,Arrays,Funcs */,
 				8779DCD12947CFFE00F9AA6C /* Assets.xcassets */,
 				8779DCD32947CFFE00F9AA6C /* ConvertTiles_Beta_.entitlements */,
 				8779DCD42947CFFE00F9AA6C /* Preview Content */,
@@ -193,7 +225,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					8779DCC92947CFFD00F9AA6C = {
 						CreatedOnToolsVersion = 14.1;
@@ -259,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8779DCD02947CFFD00F9AA6C /* ContentView.swift in Sources */,
+				87C0DA902956695800584EF5 /* SettingsView.swift in Sources */,
+				874B1E69295A015A00288CC2 /* LaunchView.swift in Sources */,
+				874B1E6B295A401700288CC2 /* AddATileView.swift in Sources */,
+				87C0DA8E2956630700584EF5 /* InAppPurchaseView.swift in Sources */,
+				8700E5F32954D5E0000A5643 /* UnitsSwitch.swift in Sources */,
 				8779DCCE2947CFFD00F9AA6C /* ConvertTiles_Beta_App.swift in Sources */,
+				874B1E6F295A6DAB00288CC2 /* MainView.swift in Sources */,
+				8700E5F52954D686000A5643 /* Functions.swift in Sources */,
+				874B1E6D295A660200288CC2 /* TileView.swift in Sources */,
+				8700E5F92954D8B0000A5643 /* Structs&Arrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +370,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -388,6 +429,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -412,13 +454,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ConvertTiles(Beta)/ConvertTiles_Beta_.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ConvertTiles(Beta)/Preview Content\"";
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ConvertTiles;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,6 +481,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.ConvertTiles-Beta-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -452,13 +498,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ConvertTiles(Beta)/ConvertTiles_Beta_.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ConvertTiles(Beta)/Preview Content\"";
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ConvertTiles;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,6 +525,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.ConvertTiles-Beta-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -493,6 +543,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -516,6 +567,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -538,6 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -560,6 +613,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 33MAXP8MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;

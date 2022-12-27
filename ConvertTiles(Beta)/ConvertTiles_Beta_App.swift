@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ConvertTiles_Beta_App: App {
+    @AppStorage("hlb") var hasLaunchedBefore: Bool = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasLaunchedBefore {
+                MainView()
+            } else {
+                LaunchView(hasLaunchedBefore: $hasLaunchedBefore)
+            }
         }
     }
 }
