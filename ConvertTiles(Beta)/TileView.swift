@@ -35,7 +35,7 @@ struct TileView: View {
                     VStack {
                         if unitsAmount == "Single" {
                             Text(inUnit)
-                                .foregroundColor(hasCustomAccentColor ? decodeColor(inColor: customAccentColor) : accentColor)
+                                .foregroundColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                                 .padding(.vertical, 5)
                         } else {
                             Picker("Unit", selection: $inUnit) {
@@ -43,7 +43,7 @@ struct TileView: View {
                                     Text(unit).tag(unit)
                                 }
                             }
-                            .accentColor(hasCustomAccentColor ? decodeColor(inColor: customAccentColor) : accentColor)
+                            .accentColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                             .pickerStyle(.menu)
                             .padding(.vertical, 5)
                         }
@@ -71,14 +71,14 @@ struct TileView: View {
                     }
                 }) {
                     Image(systemName: "arrow.right")
-                        .foregroundColor(hasCustomAccentColor ? decodeColor(inColor: customAccentColor) : accentColor)
+                        .foregroundColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                         .font(.system(size: 23))
                 }
                 Spacer().overlay {
                     VStack {
                         if unitsAmount == "Single" {
                             Text(outUnit)
-                                .foregroundColor(hasCustomAccentColor ? decodeColor(inColor: customAccentColor) : accentColor)
+                                .foregroundColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                                 .padding(.vertical, 5)
                         } else {
                             Picker("Unit", selection: $outUnit) {
@@ -86,7 +86,7 @@ struct TileView: View {
                                     Text(unit).tag(unit)
                                 }
                             }
-                            .accentColor(hasCustomAccentColor ? decodeColor(inColor: customAccentColor) : accentColor)
+                            .accentColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                             .pickerStyle(.menu)
                             .padding(.vertical, 5)
                         }

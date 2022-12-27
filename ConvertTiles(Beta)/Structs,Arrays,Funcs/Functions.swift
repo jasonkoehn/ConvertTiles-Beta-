@@ -45,14 +45,8 @@ func decodeUDColor(key: String) -> Color {
     return color
 }
 
-//func decodeColor(color: [CGFloat]) -> Color {
-//    let array = color
-//    let color = Color(.sRGB, red: array[0], green: array[1], blue: array[2], opacity: array[3])
-//    return color
-//}
-
-func decodeColor(inColor: [CGFloat]) -> Color {
-    let array = inColor
-    let color = Color(.sRGB, red: array[0], green: array[1], blue: array[2], opacity: array[3])
+func decodeColor(color: [CGFloat]) -> Color {
+    let array = color
+    let color = Color(red: array[0], green: array[1], blue: array[2], opacity: array[3])
     return color
 }
