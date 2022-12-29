@@ -88,7 +88,7 @@ struct MainView: View {
                         Image(systemName: "plus")
                     }
                 }
-                ToolbarItem(placement: .keyboard) {
+                ToolbarItemGroup(placement: .keyboard) {
                     Spacer()
                     Button("Done") {
                         isInputActive = false
