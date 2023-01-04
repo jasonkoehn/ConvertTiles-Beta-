@@ -28,9 +28,21 @@ struct MainView: View {
                 if isEditing {
                     List {
                         ForEach(converters, id: \.id) { converter in
-                            Text(converter.name)
-                                .foregroundColor(converter.hasCustomAccentColor ? decodeColor(color: converter.customAccentColor) : accentColor)
-                                .font(.system(size: 20))
+                            HStack {
+                                Text(converter.name)
+                                    .foregroundColor(converter.hasCustomAccentColor ? decodeColor(color: converter.customAccentColor) : accentColor)
+                                    .font(.system(size: 20))
+                                if pro {
+                                    Spacer()
+                                    ZStack {
+                                        Button(action: {
+                                            // Edit Color
+                                        }) {
+                                            Text("Edit")
+                                        }
+                                    }
+                                }
+                            }
                         }
                         .onMove { indexSet, offset in
                             converters.move(fromOffsets: indexSet, toOffset: offset)

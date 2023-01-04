@@ -37,6 +37,7 @@ struct TileView: View {
                             Text(inUnit)
                                 .foregroundColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                                 .padding(.vertical, 5)
+                                .fixedSize(horizontal: false, vertical: true)
                         } else {
                             Picker("Unit", selection: $inUnit) {
                                 ForEach(units, id: \.self) { unit in
@@ -52,7 +53,7 @@ struct TileView: View {
                                 firstAmount = 0
                             }
                             .onChange(of: isInputActive) { input in
-                                if input == false {
+                                if input == false && firstAmount == 0 {
                                     firstAmount = 1
                                 }
                             }
@@ -80,6 +81,7 @@ struct TileView: View {
                             Text(outUnit)
                                 .foregroundColor(hasCustomAccentColor ? decodeColor(color: customAccentColor) : accentColor)
                                 .padding(.vertical, 5)
+                                .fixedSize(horizontal: false, vertical: true)
                         } else {
                             Picker("Unit", selection: $outUnit) {
                                 ForEach(units, id: \.self) { unit in
