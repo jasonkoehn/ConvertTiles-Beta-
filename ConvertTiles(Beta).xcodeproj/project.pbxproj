@@ -22,6 +22,7 @@
 		8779DCEC2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779DCEB2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift */; };
 		87C0DA8E2956630700584EF5 /* InAppPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */; };
 		87C0DA902956695800584EF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0DA8F2956695800584EF5 /* SettingsView.swift */; };
+		87E7550B2965DF1000501762 /* TileViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E7550A2965DF1000501762 /* TileViewPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8779DCEB2947CFFE00F9AA6C /* ConvertTiles_Beta_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTiles_Beta_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseView.swift; sourceTree = "<group>"; };
 		87C0DA8F2956695800584EF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		87E7550A2965DF1000501762 /* TileViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				874B1E6A295A401700288CC2 /* AddATileView.swift */,
 				87C0DA8F2956695800584EF5 /* SettingsView.swift */,
 				87C0DA8D2956630700584EF5 /* InAppPurchaseView.swift */,
+				87E7550A2965DF1000501762 /* TileViewPreview.swift */,
 				8700E5FA2954DEEA000A5643 /* Structs,Arrays,Funcs */,
 				8779DCD12947CFFE00F9AA6C /* Assets.xcassets */,
 				8779DCD32947CFFE00F9AA6C /* ConvertTiles_Beta_.entitlements */,
@@ -300,6 +303,7 @@
 				874B1E6F295A6DAB00288CC2 /* MainView.swift in Sources */,
 				8700E5F52954D686000A5643 /* Functions.swift in Sources */,
 				874B1E6D295A660200288CC2 /* TileView.swift in Sources */,
+				87E7550B2965DF1000501762 /* TileViewPreview.swift in Sources */,
 				8700E5F92954D8B0000A5643 /* Structs&Arrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
